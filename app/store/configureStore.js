@@ -3,3 +3,4 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   module.exports = require('./configureStore.development');
 }
+// module.exports = require('./configureStore.production');
