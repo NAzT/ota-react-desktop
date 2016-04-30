@@ -42,7 +42,7 @@ export default class Home extends Component {
         <div className={styles["flex-container"]}>
           <div className={styles["flex-content-wrapper"]}>
             <div className={styles["flex-left"]}>
-              <input onChange={this.handleChange} styles={styles.input} type="text" ref={(ref) => this.myTextInput = ref}/>
+              <input onChange={this.handleChange} className={styles.input} type="text" ref={(ref) => this.myTextInput = ref}/>
               {/* <div>:)</div>*/ }
             </div>
             <div className={styles["flex-right"]}>
